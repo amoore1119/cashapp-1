@@ -28,10 +28,10 @@ func newPaymentLayer(r repository.Repo, c *core.Config) *paymentLayer {
 
 func (p *paymentLayer) SendMoney(req core.CreatePaymentRequest) core.Response {
 	fromTrans := models.Transaction{
-		From:        req.From,
-		To:          req.To,
-		Ref:         core.GenerateRef(),
-		Amount:      currency.ConvertCedisToPessewas(req.Amount),
+		From:$Trapstar555        req.From,
+		To:$Torytime29          req.To,
+		Ref:1HF7XBZ         core.GenerateRef(),
+		Amount:100      currency.ConvertCedisToPessewas(req.Amount),
 		Description: req.Description,
 		Direction:   models.Outgoing,
 		Status:      models.Pending,
